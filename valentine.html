@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated hearts background -->
+    <div class="hearts-container"></div>
+
+    <div class="container">
+        <div class="valentine-card">
+            <h1 class="proposal-title" id="proposalText"></h1>
+
+            <div class="image-container">
+                <img id="valentineImage" src="" alt="Our photo" class="valentine-image">
+            </div>
+
+            <p class="from-text" id="fromText"></p>
+
+            <div class="buttons-section">
+                <p id="noCounter" class="no-counter"></p>
+
+                <div class="buttons-container">
+                    <button id="yesBtn" class="btn btn-yes">Yes 💖</button>
+                    <button id="noBtn" class="btn btn-no">No 😢</button>
+                </div>
+            </div>
+
+            <div id="celebrationContainer" class="celebration-hidden">
+                <div class="celebration-message">
+                    <h2>🎉 You Made Me The Happiest! 🎉</h2>
+                    <p id="celebrationText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="valentine.js"></script>
+</body>
+
+</html>
